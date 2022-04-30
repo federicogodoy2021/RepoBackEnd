@@ -22,11 +22,7 @@ class User {
             let totalQtyPets = this.qtyPets            
             return console.log(totalQtyPets[0].length)
         }
-        totalQtyPets = () =>{
-            return (
-                this.qty
-            )
-        }
+        
         addBook = (title, author) => {
             this.books.push({titleBook: `${title}`, authorBook: `${author}`})
             return console.log(this.books)
@@ -48,7 +44,7 @@ console.log(user2.getFullName())
 console.log(user3.getFullName())
 console.log(user4.getFullName())
 
-console.log(user1.addPet(['perro','loro']))
+console.log(user1.addPet(['loro']))
 console.log(user2.addPet(['gato', 'hamster']))
 console.log(user3.addPet(['tortuga','iguana','caballo']))
 console.log(user4.addPet(['conejo','cobayo']))
@@ -60,9 +56,9 @@ user4.counterPets()
 
 
 user1.addBook('Cumbres Borrascosas','Emily Brontë')
-user2.addBook(['El extranjero','Albert Camus'])
-user3.addBook(['Ficciones','Jorge Luis Borges'])
-user4.addBook(['Decamerón','Giovanni Boccaccio'])
+user2.addBook('El extranjero','Albert Camus')
+user3.addBook('Ficciones','Jorge Luis Borges')
+user4.addBook('Decamerón','Giovanni Boccaccio')
 
 user1.getBookNames()
 user2.getBookNames()
