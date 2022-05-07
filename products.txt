@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Zapatilla",
+    "price": 1000,
+    "size": 42,
+    "id": 1
+  },
+  {
+    "title": "Pantalon",
+    "price": 400,
+    "size": 44,
+    "id": 2
+  },
+  {
+    "title": "Remera",
+    "price": 300,
+    "size": "M",
+    "id": 3
+  },
+  {
+    "title": "Buzo",
+    "price": 500,
+    "size": "L",
+    "id": 4
+  },
+  {
+    "title": "Short",
+    "price": 460,
+    "size": "S",
+    "id": 5
+  },
+  {
+    "title": "Short",
+    "price": 460,
+    "size": "S",
+    "id": 6
+  }
+]
