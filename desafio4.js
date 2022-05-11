@@ -106,9 +106,10 @@ async function test(){
     }
 
     //Se guarda el nuevo producto
-    await contenedor.save(nextProduct)
+    //await contenedor.save(nextProduct)
     //Se leen todos los productos por consola
     console.log(await contenedor.getAll())
 }
-
 test()
+
+module.exports = Contenedor
