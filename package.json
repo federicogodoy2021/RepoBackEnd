@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "uniq": "^1.0.1"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "desafio2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federicogodoy2021/BackEnd---2022---Federico-Godoy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/federicogodoy2021/BackEnd---2022---Federico-Godoy/issues"
+  },
+  "homepage": "https://github.com/federicogodoy2021/BackEnd---2022---Federico-Godoy#readme",
+  "description": ""
+}
