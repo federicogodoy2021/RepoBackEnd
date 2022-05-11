@@ -16,23 +16,5 @@
     "price": 300,
     "size": "M",
     "id": 3
-  },
-  {
-    "title": "Buzo",
-    "price": 500,
-    "size": "L",
-    "id": 4
-  },
-  {
-    "title": "Short",
-    "price": 460,
-    "size": "S",
-    "id": 5
-  },
-  {
-    "title": "Short",
-    "price": 460,
-    "size": "S",
-    "id": 6
   }
 ]
